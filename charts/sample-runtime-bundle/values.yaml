@@ -46,7 +46,7 @@ image:
   tag: 0.0.1-SNAPSHOT
   pullPolicy: IfNotPresent
 service:
-  name: sample-activiti7-rb-app
+  name: imw-r-handson1app
   type: ClusterIP
   externalPort: 80
   internalPort: 8080
@@ -75,7 +75,7 @@ ingress:
   ## Set to true to enable ingress record generation
   enabled: false
 
-  path: /rb-sample-app
+  path: /imw-r-handson1app
 
   ## Set this to true in order to enable TLS on the ingress record
   tls: false
